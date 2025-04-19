@@ -65,7 +65,7 @@ check_token() {
   if [ "$USER_TOKEN" = "skyzodev" ]; then
     echo -e "${GREEN}AKSES BERHASIL${NC}}"
   else
-   echo -e "${YELLOW}Token ${USER_TOKEN}"
+   
     echo -e "${GREEN}Token Salah! Beli Kode Token Di Skyzopedia${NC}"
     echo -e "${YELLOW}TELEGRAM : @skyzodev${NC}"
     echo -e "${YELLOW}WHATSAPP : +6285624297893${NC}"
